@@ -8,7 +8,7 @@ body {
 
 * {
     border-radius: 8px;
-    color: #292C44;
+    color: #F0F0F1;
     border-width: 3px;
 }
 
@@ -18,7 +18,8 @@ div {
 
 button {
     margin: 0;
-    background-color: #18CDCA;
+    background-color: #292C44;
+    border-color: #292C44;
     font-weight: 700;
 }
 
@@ -28,6 +29,7 @@ button {
     padding: 10px;
     margin: 0;
     background-color: #FF5349;
+    border-color: #FF5349;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,11 +45,14 @@ button {
     border-style: inset;
     grid-column: 1/5;
     padding: 6 4 4 4;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 #resultado {
     text-align: right;
     line-height: 0;
+    color: #292C44;
 }
 
 #numero-0 {
@@ -56,4 +61,5 @@ button {
 
 #igual {
     background-color: #4F80E1;
+    border-color: #4F80E1;
 }
